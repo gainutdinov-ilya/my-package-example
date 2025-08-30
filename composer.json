@@ -1,0 +1,13 @@
+{
+  "name": "igainutdinov/my-package-example",
+  "description": "Пример пакета composer",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "IGainutdinov\\": "src/"
+    }
+  },
+  "require": {
+    "php": "8.4.*"
+  }
+}
